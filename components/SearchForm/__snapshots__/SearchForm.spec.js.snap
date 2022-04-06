@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given \`SearchForm\` component should render successfully 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1142px;
+  padding: 0 16px;
+  position: relative;
+}
+
+.c0 > div:first-of-type {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: var(--input-height);
+  position: relative;
+  width: 100%;
+}
+
+.c0 > div:first-of-type svg {
+  fill: #000;
+  height: 16px;
+  left: 16px;
+  pointer-events: none;
+  position: absolute;
+  right: auto;
+  width: 16px;
+  z-index: 1;
+}
+
+.c1 {
+  border-radius: 10px 10px 0px 0px;
+  border: 4px solid var(--main-border-color);
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: 400;
+  height: 100%;
+  left: 0;
+  padding: 25px 40px 24px 40px;
+  top: 0;
+  width: 100%;
+}
+
+.c1:focus {
+  outline-width: 0;
+}
+
+.c1:focus::-webkit-input-placeholder {
+  -webkit-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  transform: translateY(-1.5em);
+  font-size: 0.7em;
+}
+
+.c1:focus::-moz-placeholder {
+  -webkit-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  transform: translateY(-1.5em);
+  font-size: 0.7em;
+}
+
+.c1:focus:-ms-input-placeholder {
+  -webkit-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  transform: translateY(-1.5em);
+  font-size: 0.7em;
+}
+
+.c1:focus::placeholder {
+  -webkit-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  transform: translateY(-1.5em);
+  font-size: 0.7em;
+}
+
+.c1:hover {
+  outline-width: 0;
+}
+
+.c1::-webkit-search-cancel-button,
+.c1::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1142px;
+  padding: 0 16px;
+  position: relative;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #068323 !important;
+  border-bottom: 4px solid var(--main-border-color);
+  border-left: 4px solid var(--main-border-color);
+  border-radius: 0px 0px 10px 10px;
+  border-right: 4px solid var(--main-border-color);
+  border-top: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4em;
+  font-weight: 700;
+  height: var(--input-height);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: normal;
+  margin: 0;
+  min-height: 44px;
+  overflow: visible;
+  padding: calc(4px * 2) 16px;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color ease-in-out 0.1s,color ease-in-out 0.1s;
+  transition: background-color ease-in-out 0.1s,color ease-in-out 0.1s;
+  vertical-align: middle;
+}
+
+.c2:active {
+  background-color: #056b1d;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding-top: 16px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    border-bottom: 4px solid var(--main-border-color);
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+    border-right: 4px solid var(--main-border-color);
+    border-top: 4px solid var(--main-border-color);
+    display: block;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="c0"
+    >
+      <div
+        aria-activedescendant="false"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        data-testid="results-combobox"
+        role="combobox"
+      >
+        <svg
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <path
+            d="M17.464 6.56a8.313 8.313 0 1 1-15.302 6.504A8.313 8.313 0 0 1 17.464 6.56zm1.38-.586C16.724.986 10.963-1.339 5.974.781.988 2.9-1.337 8.662.783 13.65c2.12 4.987 7.881 7.312 12.87 5.192 4.987-2.12 7.312-7.881 5.192-12.87zM15.691 16.75l7.029 7.03a.75.75 0 0 0 1.06-1.06l-7.029-7.03a.75.75 0 0 0-1.06 1.06z"
+          />
+        </svg>
+        <input
+          aria-autocomplete=""
+          aria-controls="location-search-listbox"
+          aria-label="Pick-up location"
+          class="c1"
+          data-testid="search-input"
+          id="location-search"
+          name="q"
+          placeholder="Pick-up location"
+          type="search"
+          value=""
+        />
+      </div>
+      <button
+        class="c2"
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      class="c3"
+    />
+  </form>
+</div>
+`;
